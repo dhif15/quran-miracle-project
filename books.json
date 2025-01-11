@@ -1,0 +1,134 @@
+[
+    {
+        "name": "إعجاز القرآن والبلاغة النبوية - الرافعي",
+        "folder": "Rafeei",
+        "book_file": "pages/Rafeei/1.htm",
+        "summary_file": "pages/Rafeei/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "الإتقان في علوم القرآن - السيوطي",
+        "folder": "Sayoti",
+        "book_file": "pages/Sayoti/1.htm",
+        "summary_file": "pages/Sayoti/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "السكاكي - مفتاح العلوم",
+        "folder": "Skaky",
+        "book_file": "pages/Skaky/1.htm",
+        "summary_file": "pages/Skaky/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "المفردات في غريب القرآن - الأصفهاني",
+        "folder": "Asfahani",
+        "book_file": "pages/Asfahani/1.htm",
+        "summary_file": "pages/Asfahani/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "النبأ العظيم - محمد عبد الله دراز",
+        "folder": "Draz",
+        "book_file": "pages/Draz/النبأ_1.htm",
+        "summary_file": "pages/Draz/النبأ_2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "مدخل إلى القرآن الكريم - محمد عبد الله دراز",
+        "folder": "Draz",
+        "book_file": "pages/Draz/مدخل_1.htm",
+        "summary_file": "pages/Draz/مدخل_2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "بسام ساعي - المعجزة",
+        "folder": "Saii",
+        "book_file": [
+            "https://drive.google.com/file/d/125Qc6ms9mpNecvrwSNztKIWyhtjfPger/preview",
+            "https://drive.google.com/file/d/1N8WNQT8VCgkNY1DQi5-sJOKL9Fq9Y3U5/preview"
+        ],
+        "summary_file": [
+            "pages/Saii/المعجزة_جزء_أول_2.html",
+            "pages/Saii/المعجزة_جزء_ثاني_2.html"
+        ],
+        "file_type": ["pdf", "html"]
+    },
+    {
+        "name": "الإعجاز البياني للقرآن ومسائل وابن الأزرق - بنت الشاطىء",
+        "folder": "Shataa",
+        "book_file": "pages/Shataa/1.htm",
+        "summary_file": "pages/Shataa/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "بيان إعجاز القرآن - الخطابي",
+        "folder": "Ktabii",
+        "book_file": "pages/Ktabii/1.htm",
+        "summary_file": "pages/Ktabii/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "تفسير الكشاف - الزمخشري",
+        "folder": "Zamekshari",
+        "book_file": "pages/Zamekshari/1.htm",
+        "summary_file": "pages/Zamekshari/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "دلائل الإعجاز - الجرجاني",
+        "folder": "Jourjani",
+        "book_file": "pages/Jourjani/1.htm",
+        "summary_file": "pages/Jourjani/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "التفسير القرآني للقرآن - عبد الكريم الخطيب",
+        "folder": "Khateeb",
+        "book_file": "pages/Khateeb/1.htm",
+        "summary_file": "pages/Khateeb/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "مدخل إلى موقف القرآن الكريم من العلم - عماد الدين خليل",
+        "folder": "Emad",
+        "book_file": "pages/Emad/1.htm",
+        "summary_file": "pages/Emad/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "لمسات بيانية - السامرائي",
+        "folder": "Sameraii",
+        "book_file": "pages/Sameraii/1.htm",
+        "summary_file": "pages/Sameraii/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "محمد أبو زهرة - المعجزة الكبرى للقرآن",
+        "folder": "Abu_Zahra",
+        "book_file": "pages/Abu_Zahra/1.htm",
+        "summary_file": "pages/Abu_Zahra/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "محمد متولي الشعراوي - المعجزة",
+        "folder": "Sharawii",
+        "book_file": "pages/Sharawii/1.htm",
+        "summary_file": "pages/Sharawii/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "مقاييس اللغة - ابن فارس",
+        "folder": "Ibn_Fares",
+        "book_file": "pages/Ibn_Fares/1.htm",
+        "summary_file": "pages/Ibn_Fares/2.html",
+        "file_type": "html"
+    },
+    {
+        "name": "الإعجاز البياني في القرآن الكريم - وضاح رجب",
+        "folder": "Rajab",
+        "book_file": "https://drive.google.com/file/d/1UJA3KFS8nNLQgk-RKXssrOHSkSO1MLiu/preview",
+        "summary_file": "pages/Rajab/2.html",
+        "file_type": "pdf"
+    }
+]
