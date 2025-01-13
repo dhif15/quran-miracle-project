@@ -138,7 +138,7 @@ if st.session_state.selected_page == "🌸 بداية القصة والمشرو�
 # ✅ عرض البحث بصيغة HTML
 elif st.session_state.selected_page == "🔎 اعرض البحث":
     st.subheader("🔎 اعرض البحث")
-    research_file_path = "pages/الإعجاز البياني.html"  # المسار النسبي لملف البحث
+    research_file_path = "pages/البحث.html"  # المسار النسبي لملف البحث
     if os.path.exists(research_file_path):
         display_html(research_file_path)  # استدعاء الدالة لعرض ملف HTML
     else:
@@ -147,24 +147,20 @@ elif st.session_state.selected_page == "🔎 اعرض البحث":
 # ✅ عرض البحث بصيغة PDF
 elif st.session_state.selected_page == "🔎 اعرض البحث بصيغة PDF":
     st.subheader("🔎 اعرض البحث بصيغة PDF")
-    pdf_file_path = "pages/الإعجاز.pdf"  # المسار النسبي لملف PDF
-    if os.path.exists(pdf_file_path):
-        # زر تحميل ملف PDF
-        with open(pdf_file_path, "rb") as file:
-            btn = st.download_button(
-                label="📥 حمل ملف PDF",
-                data=file,
-                file_name="الإعجاز.pdf",
-                mime="application/pdf"
-            )
-        display_pdf(pdf_file_path)  # استدعاء الدالة لعرض ملف PDF
-    else:
-        st.error("❌ ملف PDF غير موجود. تأكد من اسم الملف أو مساره.")
+    
+    # رابط Google Drive للبحث
+    research_pdf_link = "https://drive.google.com/file/d/1kB4uegNL4K28FxYyevCHMO4uDDRwKGY7/preview"
+    
+    # عرض ملف PDF باستخدام Google Drive Viewer
+    st.markdown(f'<iframe src="{research_pdf_link}" width="100%" height="800px"></iframe>', unsafe_allow_html=True)
+    
+    # زر تحميل ملف PDF
+    st.markdown(f'<a href="https://drive.google.com/uc?export=download&id=1kB4uegNL4K28FxYyevCHMO4uDDRwKGY7" download="البحث.pdf">📥 حمل ملف PDF</a>', unsafe_allow_html=True)
 
 # ✅ عرض النظرية بصيغة HTML
 elif st.session_state.selected_page == "📖 اعرض النظرية":
     st.subheader("📖 اعرض النظرية")
-    theory_html_path = "pages/نظرية في وجه إعجاز القرآن الكريم مدللاً_نهائي.html"
+    theory_html_path = "pages/النظرية.html"
     if os.path.exists(theory_html_path):
         display_html(theory_html_path)  # استدعاء الدالة لعرض ملف HTML
     else:
@@ -173,19 +169,15 @@ elif st.session_state.selected_page == "📖 اعرض النظرية":
 # ✅ عرض النظرية بصيغة PDF
 elif st.session_state.selected_page == "📖 اعرض النظرية بصيغة PDF":
     st.subheader("📖 اعرض النظرية بصيغة PDF")
-    theory_pdf_path = "pages/نظرية في وجه إعجاز القرآن الكريم مدللاً_نهائي.pdf"
-    if os.path.exists(theory_pdf_path):
-        # زر تحميل ملف PDF
-        with open(theory_pdf_path, "rb") as file:
-            btn = st.download_button(
-                label="📥 حمل ملف PDF",
-                data=file,
-                file_name="نظرية في وجه إعجاز القرآن الكريم مدللاً_نهائي.pdf",
-                mime="application/pdf"
-            )
-        display_pdf(theory_pdf_path)  # استدعاء الدالة لعرض ملف PDF
-    else:
-        st.error("❌ ملف النظرية غير موجود. تأكد من اسم الملف أو مساره.")
+    
+    # رابط Google Drive للنظرية
+    theory_pdf_link = "https://drive.google.com/file/d/1IBiMocZK6jB3UdRi6S4apRN9AqO3Sp5O/preview"
+    
+    # عرض ملف PDF باستخدام Google Drive Viewer
+    st.markdown(f'<iframe src="{theory_pdf_link}" width="100%" height="800px"></iframe>', unsafe_allow_html=True)
+    
+    # زر تحميل ملف PDF
+    st.markdown(f'<a href="https://drive.google.com/uc?export=download&id=1IBiMocZK6jB3UdRi6S4apRN9AqO3Sp5O" download="النظرية.pdf">📥 حمل ملف PDF</a>', unsafe_allow_html=True)
 
 # ✅ عرض الكتب الملخصة
 elif st.session_state.selected_page == "📚 الكتب الملخصة":
@@ -208,7 +200,7 @@ elif st.session_state.selected_page == "summary_content":
 # ✅ عرض صورة عند الضغط على "الكتب المستخرج النصوص منها"
 elif st.session_state.selected_page == "📦 الكتب المستخرج النصوص منها":
     st.subheader("📦 الكتب المستخرج النصوص منها")
-    image_path = r"C:\Users\dalay\Desktop\Raneen Final\final project\images\soon.png"
+    image_path = r"images\soon.png"
     if os.path.exists(image_path):
         st.image(image_path, use_container_width=True)
     else:
