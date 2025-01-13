@@ -200,7 +200,10 @@ elif st.session_state.selected_page == "summary_content":
 # ✅ عرض صورة عند الضغط على "الكتب المستخرج النصوص منها"
 elif st.session_state.selected_page == "📦 الكتب المستخرج النصوص منها":
     st.subheader("📦 الكتب المستخرج النصوص منها")
-    image_path = r"images\soon.png"
+    
+    # استخدام os.path.join لإنشاء مسار متوافق مع جميع الأنظمة
+    image_path = os.path.join("images", "soon.png")
+    
     if os.path.exists(image_path):
         st.image(image_path, use_container_width=True)
     else:
